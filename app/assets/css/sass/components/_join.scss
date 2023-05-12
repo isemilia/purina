@@ -1,6 +1,6 @@
 .join {
     padding: 100px 0;
-    background: url('../img/join-bg.png') center center / cover no-repeat;
+    background: url('../img/join-bg.png') center bottom / cover no-repeat;
     &-wrap {
         margin-top: 80px;
         @include flex(center, center);
@@ -40,8 +40,20 @@
             color: var(--clr-500);
         }
         &-img {
-            align-self: flex-end;
             max-width: 360px;
+            &--align-self-end {
+                align-self: flex-end;
+            }
         }
+    }
+    &-subtitle {
+        max-width: 580px;
+        margin: 50px auto 0;
+        text-align: center;
+    }
+    &-btn {
+        display: block;
+        margin: 50px auto 0;
+        max-width: max-content;
     }
 }
