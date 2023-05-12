@@ -35,3 +35,11 @@
         }
     }
 }
+
+@media (max-width: 1139px) {
+    .footer {
+        &-nav-list {
+            column-gap: clamp(20px, 4.5vw, 60px);
+        }
+    }
+}
