@@ -26,3 +26,8 @@ a:not([class]) {
 .hidden {
     display: none !important;
 }
+
+.text {
+    font-size: 16px;
+    line-height: 1.2em;
+}

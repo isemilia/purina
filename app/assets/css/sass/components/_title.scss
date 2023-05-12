@@ -5,6 +5,17 @@
         font-size: 70px;
         line-height: 110%;
     }
+    &--medium {
+        font-size: 48px;
+        line-height: 95%;
+    }
+    &--small {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    &--center {
+        text-align: center;
+    }
 }
 
 .subtitle {
