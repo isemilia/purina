@@ -27,8 +27,14 @@ a:not([class]) {
     display: none !important;
 }
 
-.m-hidden {
+.l-hidden {
     @media (min-width: 1024px) {
+        display: none !important;
+    }
+}
+
+.m-hidden {
+    @media (min-width: 768px) {
         display: none !important;
     }
 }
