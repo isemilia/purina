@@ -1,0 +1,46 @@
+.header {
+    background: var(--header-bg);
+    padding: 16px 0;
+    font-size: 16px;
+    line-height: 22px;
+    &-flex {
+        @include flex(center, space-between);
+    }
+    &-nav {
+        &-list {
+            @include list-reset;
+            @include flex(center);
+            column-gap: 136px;
+        }
+        &-item {
+            color: var(--clr-600);
+            a {
+                color: inherit;
+            }
+        }
+    }
+    &-langs {
+        @include list-reset;
+        @include flex(center);
+        column-gap: 10px;
+    }
+    &-lang {
+        color: var(--clr-600);
+        &--active {
+            color: var(--clr-400);
+        }
+        a {
+            color: inherit;
+        }
+    }
+}
+
+@media (max-width: 1439px) {
+    .header {
+        &-nav {
+            &-list {
+                column-gap: clamp(20px, 8vw, 130px);
+            }
+        }
+    }
+}

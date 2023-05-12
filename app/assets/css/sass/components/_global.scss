@@ -1,0 +1,32 @@
+body {
+    background: var(--body-bg);
+    font-family: var(--ff-100);
+    font-weight: 400;
+    color: var(--clr-600);
+}
+
+a:not([class]) {
+    color: var(--clr-600);
+    transition: all .3s;
+    &:hover {
+        color: var(--clr-400);
+    }
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    @media (max-width: 1359px) {
+        padding: 0 20px;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.subtitle {
+    font-size: 32px;
+    line-height: 120%;
+    color: #FCD072;
+}
