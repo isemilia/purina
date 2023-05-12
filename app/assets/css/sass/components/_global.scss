@@ -27,6 +27,12 @@ a:not([class]) {
     display: none !important;
 }
 
+.m-hidden {
+    @media (min-width: 1024px) {
+        display: none !important;
+    }
+}
+
 .text {
     font-size: 16px;
     line-height: 1.2em;
