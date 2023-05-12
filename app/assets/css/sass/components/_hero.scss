@@ -1,0 +1,27 @@
+.hero {
+    padding: 90px 0;
+    background: url('../img/hero-bg-1920.png') center top / cover no-repeat;
+    @media (max-width: 1460px) {
+        background-image: url('../img/hero-bg.png');
+    }
+    &-text {
+        color: var(--clr-400);
+    }
+    &-subtitle, &-text, &-btn {
+        margin-top: 25px;
+    }
+    &-wrap {
+        max-width: 54%;
+    }
+    &-subtitle {
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .hero {
+        &-wrap {
+            max-width: 52%;
+        }
+    }
+}

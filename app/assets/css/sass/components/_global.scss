@@ -3,6 +3,8 @@ body {
     font-family: var(--ff-100);
     font-weight: 400;
     color: var(--clr-600);
+    font-size: 16px;
+    line-height: 1.2em;
 }
 
 a:not([class]) {
@@ -23,10 +25,4 @@ a:not([class]) {
 
 .hidden {
     display: none !important;
-}
-
-.subtitle {
-    font-size: 32px;
-    line-height: 120%;
-    color: #FCD072;
 }
