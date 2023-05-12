@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--footer-bg);
+    padding: 40px 0;
+    &-flex {
+        @include flex(center, space-between);
+        max-width: 1140px;
+    }
+    &-contacts {
+        @include list-reset;
+    }
+    &-contact {
+        color: var(--clr-400);
+        a {
+            @include flex(center);
+            column-gap: 10px;
+            color: inherit;
+        }
+        img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+        }
+    }
+    &-nav {
+        &-list {
+            @include list-reset;
+            @include flex(center);
+            column-gap: 78px;
+        }
+        &-item {
+            color: var(--clr-600);
+            a {
+                color: inherit;
+            }
+        }
+    }
+}
