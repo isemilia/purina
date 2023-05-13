@@ -41,9 +41,13 @@
             color: var(--clr-500);
         }
         &-img {
-            max-width: 360px;
+            max-width: 440px;
             &--align-self-end {
                 align-self: flex-end;
+            }
+            @media (min-width: 1024px) {
+                margin-left: -60px;
+                flex-shrink: 0;
             }
         }
     }
