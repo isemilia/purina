@@ -16,8 +16,24 @@
     }
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
     .banner {
-        
+        &-text {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .banner {
+        &-inner {
+            column-gap: 25px;
+        }
+        &-img {
+            max-width: 116px;
+        }
+        &-text {
+            font-size: 20px;
+        }
     }
 }
