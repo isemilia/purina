@@ -29,6 +29,9 @@
         &--large {
             font-size: clamp(32px, 5vw, 70px);
         }
+        &--medium {
+            font-size: clamp(24px, 4vw, 48px);
+        }
     }
     .subtitle {
         font-size: clamp(20px, 2.4vw, 32px);
