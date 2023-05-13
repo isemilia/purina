@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('[data-menu]');
     const btn = document.querySelector('[data-trigger]');
-    const navItems = document.querySelectorAll('[header-nav-item]');
+    const navItems = document.querySelectorAll('[data-header-nav-item]');
 
     btn.addEventListener('click', e => {
         e.preventDefault();
