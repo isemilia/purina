@@ -110,8 +110,9 @@
                 height: 320px;
                 width: 100%;
             }
-            &-title {
-                font-size: 24px;
+            &-show {
+                font-size: 13px;
+                gap: 5px;
             }
             &:not(:last-child) {
                 margin-bottom: 35px;
